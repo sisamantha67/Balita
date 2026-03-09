@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Community Gazette - Front Page</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #f5f0e8;
+      margin: 0;
+      padding: 20px;
+      color: #222;
+    }
+
+    nav {
+      background-color: #1a1a2e;
+      padding: 10px 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: #f5f0e8;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 15px;
+      font-family: Arial, sans-serif;
+    }
+    nav a:hover {
+      color: #f0c040;
+      text-decoration: underline;
+    }
+
+    .newspaper-name {
+      text-align: center;
+      border: 4px double #1a1a2e;
+      background-color: #1a1a2e;
+      color: #f5f0e8;
+      padding: 18px 10px;
+      font-size: 48px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      position: relative;
+    }
+    .newspaper-name::before {
+      content: "✦ ";
+      color: #f0c040;
+    }
+    .newspaper-name::after {
+      content: " ✦";
+      color: #f0c040;
+    }
+
+    .tagline {
+      text-align: center;
+      font-style: italic;
+      font-family: 'Palatino Linotype', Palatino, serif;
+      font-size: 18px;
+      margin: 10px 0;
+      color: #555;
+    }
+
+    .meta-info {
+      text-align: center;
+      font-size: 13px;
+      color: #444;
+      border-top: 1px solid #aaa;
+      border-bottom: 1px solid #aaa;
+      padding: 6px 0;
+      margin: 10px 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .breaking-news {
+      background-color: #cc0000;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+      letter-spacing: 1px;
+      margin: 15px 0;
+    }
+    .breaking-news span {
+      background-color: #f0c040;
+      color: #cc0000;
+      padding: 2px 8px;
+      margin-right: 10px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .front-content {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .main-story {
+      flex: 2;
+    }
+    .side-stories {
+      flex: 1;
+      border-left: 2px solid #aaa;
+      padding-left: 15px;
+    }
+
+    .main-story h2 {
+      font-size: 28px;
+      border-bottom: 2px solid #1a1a2e;
+      padding-bottom: 5px;
+    }
+    .main-story img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      background-color: #ccc;
+      display: block;
+      margin: 10px 0;
+    }
+
+    .side-stories h3 {
+      font-size: 17px;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 4px;
+    }
+    .side-stories img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      background-color: #ccc;
+      display: block;
+      margin: 6px 0;
+    }
+
+    p {
+      line-height: 1.7;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="page1_frontpage.html">Home</a>
+    <a href="page2_localnews.html">Local News</a>
+    <a href="page3_community.html">Community</a>
+    <a href="page4_opinion.html">Opinion</a>
+    <a href="page5_future.html">Future</a>
+  </nav>
+
+  <div class="newspaper-name">News4YU</div>
+
+  <div class="tagline">"NEWS for YOU—ALWAYS TRUE!"</div>
+
+  <div class="meta-info">
+    Monday, March 9, 2026 &nbsp;|&nbsp; Vol. 12, No. 45 &nbsp;|&nbsp; Barangay San Isidro Cainta Rizal, Philippines
+  </div>
+
+  <div class="breaking-news">
+    <span>BREAKING</span>
+    Stray Animals in Cainta— being put up for adoption for future owners to have
+  </div>
+
+  <div class="front-content">
+
+    <div class="main-story">
+      <h2>Stray Animals in Cainta—being put up for adoption</h2>
+      <p><strong>People wonder where these pets will go—will they stay on the shelters, or will they find their true loving families</strong></p>
+      <img src="https://strayanimalfoundationindia.org/wp-content/uploads/2023/11/Fostering-Stray-Animals.jpg" alt="Main Story Image">
+      <p>Many stray animals in Cainta are being rescued and placed up for adoption to give them a second chance at a safe and loving home. Animal welfare groups and volunteers help care for these animals by providing food, medical attention, and temporary shelter. By adopting instead of buying pets, people can help reduce the number of animals living on the streets. Adoption also gives these stray animals the opportunity to experience kindness, safety, and proper care.</p>
+      <p>As the saying goes, “Saving one animal will not change the world, but for that one animal, the world will change forever.” 🐾</p>
+    </div>
+
+    <div class="side-stories">
+      <h3>Concerns Raised Over Newly Built Roads in Barangay San Isidro</h3>
+      <img src="https://media.istockphoto.com/id/183851840/photo/bad-repair-pothole-in-road-t-junction-suffers-frost-damage.jpg?s=612x612&w=0&k=20&c=C6x40SIitvOnljrXy-1AZcZ16k3rhmkqnXEDVz-ifZ0=" alt="Side Story 1">
+      <p>Concerns Raised Over Newly Built Roads in Barangay San Isidro. Some residents have expressed worries about the durability of newly built roads in Barangay San Isidro. They claim that parts of the roads do not seem sturdy, raising questions about construction quality and safety.</p>
+
+      <h3>Barangay San Isidro Puts Up Signs About Cleaning Dog Waste</h3>
+      <img src="https://us.123rf.com/450wm/bschonewille/bschonewille1702/bschonewille170200097/73188088-segnale-stradale-vietato-di-lasciare-qui-la-merda-del-cane.jpg" alt="Side Story 2">
+      <p>Officials in Barangay San Isidro recently installed signs reminding pet owners to clean up after their dogs. The signs aim to promote responsibility among pet owners and help keep sidewalks and public areas clean for everyone.</p>
+
+      <h3>Residents Complain About Garbage Around the Area</h3>
+      <img src="https://campus-cdhk.oss-cn-hongkong.aliyuncs.com/store_manager/photo_pre/7/184/19/b98a47e9-37fd-4bf7-809a-82e6663a4c77/high_wm.jpg" alt="Side Story 3">
+      <p> Residents of Cainta Rizal—complain about the smell and overflowing of trash in some areas. Some residents report thay the garbage truck comes very late almost a week or more before collecting their trash.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
